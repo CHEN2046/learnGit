@@ -1,0 +1,66 @@
+header {
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    margin: 5px auto;
+}
+
+header p {
+    margin: 5px auto;
+}
+
+header #newgamebutton {
+    display: block;
+    margin: 5px auto;
+    padding: 5px auto;
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: rgb(204, 16, 16);
+    border-radius: 10px;
+}
+
+header #newgamebutton:hover {
+    background-color: burlywood;
+}
+
+#grid-container {
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    margin: 5px auto;
+
+    background-color:thistle;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    
+    background-color: #ee82b8;
+    border-radius: 5px;
+    
+    position: absolute;
+}
+
+
+.number-cell {
+    border-radius: 5px;
+
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px; /*单行文字的垂直居中：设置line-height等于父元素的height*/
+    
+    position: absolute;
+}
